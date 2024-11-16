@@ -27,7 +27,7 @@ const NavbarComponent = () => {
         </NavbarBrand>
         <NavbarList className="text-[#ffffff] space-x-4">
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/treatments">All Treatments</NavLink>
+          <NavLink to="/alltreatments">All Treatments</NavLink>
           <NavLink to="/appointments">My appointments</NavLink>
           <NavLink to="/profile">Profile</NavLink>
         </NavbarList>
@@ -53,7 +53,7 @@ const NavbarComponent = () => {
         <NavbarCollapseBtn />
         <NavbarCollapse>
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/treatments">All Treatments</NavLink>
+          <NavLink to="/alltreatments">All Treatments</NavLink>
           <NavLink to="/appointments">My appointments</NavLink>
           <NavLink to="/profile">Profile</NavLink>
           <NavbarItem active={true}>Sign Up</NavbarItem>
