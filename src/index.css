@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 body {
-  @apply font-Poppins bg-[#036C5E];
+  @apply font-Poppins bg-[#04917ed8];
 }
 a.active {
   @apply text-[#FFC312] font-medium;
