@@ -18,7 +18,7 @@ import { NavLink } from "react-router-dom";
 
 const NavbarComponent = () => {
   return (
-    <Navbar className="w-11/12  mx-auto bg-transparent border-none ">
+    <Navbar className="w-11/12 lg:w-5/6 mx-auto bg-transparent border-none ">
       <NavbarContainer>
         <NavbarBrand>
           <h2 className="text-[#FFC312] text-2xl font-semibold">

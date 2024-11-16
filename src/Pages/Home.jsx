@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import Banner from "../components/HomeLayout/Banner";
+import ServicesContainer from "../components/HomeLayout/ServicesContainer";
 
 const Home = () => {
   return (
@@ -8,8 +9,9 @@ const Home = () => {
         <title>Home | React App</title>
         <link rel="canonical" href="/" />
       </Helmet>
-      <div className="w-11/12 mx-auto ">
+      <div className="w-11/12 lg:w-5/6 mx-auto ">
         <Banner></Banner>
+        <ServicesContainer></ServicesContainer>
       </div>
     </div>
   );
