@@ -2,6 +2,7 @@ import { CardHeader } from "keep-react";
 import { useLoaderData, useNavigate } from "react-router-dom";
 
 import { Button, CardContent, CardDescription, CardTitle } from "keep-react";
+import { ModalComponent } from "../components/ModalComponent";
 
 const Details = () => {
   const navigate = useNavigate();
@@ -26,7 +27,8 @@ const Details = () => {
             <span className=" bg-[#04917ed8] text-white px-3 py-2 rounded-xl">
               Cost: ${cost}
             </span>
-            <Button onClick={() => navigate(`/profile`)}>Checkout</Button>
+            {/* <Button onClick={() => navigate(`/profile`)}></Button> */}
+            <ModalComponent></ModalComponent>
           </div>
         </CardContent>
       </div>
