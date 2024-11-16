@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@import "keep-react/css";
+/* Poppins Font */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-Poppins bg-[#036C5E];
+}
+a.active {
+  @apply text-[#FFC312] font-medium;
+}
