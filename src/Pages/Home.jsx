@@ -9,7 +9,7 @@ const Home = () => {
         <title>Home | React App</title>
         <link rel="canonical" href="/" />
       </Helmet>
-      <div className="w-11/12 lg:w-5/6 mx-auto ">
+      <div className="w-11/12 mx-auto ">
         <Banner></Banner>
         <ServicesContainer></ServicesContainer>
       </div>
