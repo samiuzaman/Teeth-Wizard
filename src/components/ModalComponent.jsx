@@ -20,7 +20,6 @@ import {
 export const ModalComponent = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(event);
   };
   return (
     <Modal>

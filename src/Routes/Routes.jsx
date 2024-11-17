@@ -6,6 +6,8 @@ import AllTreatments from "../Pages/AllTreatments";
 import Appointments from "../Pages/Appointments";
 import Profile from "../Pages/Profile";
 import Details from "../Pages/Details";
+import Login from "../Pages/Login";
+import Register from "../Pages/Register";
 
 const routes = createBrowserRouter([
   {
@@ -40,6 +42,14 @@ const routes = createBrowserRouter([
           const singelData = data.find((d) => d.id === parseInt(params.id));
           return singelData;
         },
+      },
+      {
+        path: "/login",
+        element: <Login></Login>,
+      },
+      {
+        path: "/register",
+        element: <Register></Register>,
       },
     ],
   },
